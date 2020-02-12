@@ -1,0 +1,180 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-image: url(./images/header/header.png);
+    width: 1020px;
+    height: 89px;
+}
+
+.header2 {
+    position: absolute;
+    margin-top: 591px;
+}
+
+.logo {
+    position: absolute;
+    margin: 34px 865px 35px 40px;
+}
+
+nav {
+    display: flex;
+    float: right;
+}
+
+span {
+    color: #e3e3e5;
+    margin-right: 15px;
+}
+
+.home {
+    color: #f06c64;
+}
+
+
+/*------------------*/
+
+main {
+    background-image: url(./images/main/main.png);
+    width: 1020px;
+    height: 600px;
+}
+
+.mobile1 {
+    position: absolute;
+    z-index: 1;
+    margin: 59px 693px 83px 112px;
+}
+
+.shadow1 {
+    position: absolute;
+    margin: 59px 668px 58px 112px;
+}
+
+.screen1 {
+    position: absolute;
+    z-index: 2;
+    margin: 124px 706px 143px 126px;
+}
+
+.button1 {
+    position: absolute;
+    z-index: 2;
+    margin: 466px 779px 91px 198px;
+}
+
+.click1 {
+    position: absolute;
+    z-index: 2;
+    margin: 479px 792px 104px 211px;
+}
+
+.speaker1 {
+    position: absolute;
+    z-index: 2;
+    margin: 95px 782px 500px 202px;
+}
+
+.bigdot1 {
+    position: absolute;
+    z-index: 2;
+    margin: 75px 796px 515px 214px;
+}
+
+.dot1 {
+    position: absolute;
+    z-index: 2;
+    margin: 77px 798px 518px 217px;
+}
+
+
+/*------------------*/
+
+.sliderleft {
+    position: absolute;
+    margin: 287px 962px 286px 42px;
+}
+
+.sliderleft: hover {
+    color: white;
+}
+
+.sliderright {
+    position: absolute;
+    margin: 287px 40px 286px 964px;
+}
+
+.hover: hover {
+    transform: scale(1.2);
+}
+
+
+/*------------------*/
+
+.mobile2 {
+    position: absolute;
+    z-index: 1;
+    margin: 180px 137px 210px 425px;
+}
+
+.shadow2 {
+    position: absolute;
+    margin: 180px 111px 180px 426px;
+}
+
+.screen2 {
+    position: absolute;
+    z-index: 2;
+    margin: 194px 202px 218px 485px;
+}
+
+.button2 {
+    position: absolute;
+    z-index: 2;
+    margin: 266px 544px 291px 433px;
+}
+
+.click2 {
+    position: absolute;
+    z-index: 2;
+    margin: 279px 557px 304px 446px;
+}
+
+.speaker2 {
+    position: absolute;
+    z-index: 2;
+    margin: 270px 173px 294px 842px;
+}
+
+.bigdot2 {
+    position: absolute;
+    z-index: 2;
+    margin: 282px 155px 308px 860px;
+}
+
+.dot2 {
+    position: absolute;
+    z-index: 2;
+    margin: 285px 155px 310px 860px;
+}
+
+.main2 {
+    position: absolute;
+    margin-top: 591px;
+}
+
+
+/*------------------*/
+
+footer {
+    background-image: url(./images/footer/footer.png);
+    width: 1020px;
+    height: 496px;
+}
+
+.footer2 {
+    position: absolute;
+    margin-top: 495px;
+}
