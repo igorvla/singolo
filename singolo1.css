@@ -3,6 +3,26 @@ body {
     margin: auto;
 }
 
+@font-face {
+    font-family: Lato-Bold;
+    src: url(fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(fonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
 header {
     background-image: url(./images/header/header.png);
     width: 1020px;
@@ -11,7 +31,7 @@ header {
 
 .header2 {
     position: absolute;
-    margin-top: 591px;
+    margin-top: 80px;
 }
 
 .logo {
@@ -21,12 +41,18 @@ header {
 
 nav {
     display: flex;
+    text-align: justify;
     float: right;
+    width: 371px;
+    height: 9px;
+    margin: 45px 40px 35px;
+    font-size: 8.65655pt;
+    color: rgba(240, 108, 100, 255);
+    text-align: justify;
 }
 
-span {
+li {
     color: #e3e3e5;
-    margin-right: 15px;
 }
 
 .home {
@@ -57,6 +83,7 @@ main {
     position: absolute;
     z-index: 2;
     margin: 124px 706px 143px 126px;
+    box-shadow: 0 0 5px;
 }
 
 .button1 {
@@ -126,8 +153,9 @@ main {
 
 .screen2 {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     margin: 194px 202px 218px 485px;
+    box-shadow: 0 0 5px;
 }
 
 .button2 {
@@ -172,6 +200,49 @@ footer {
     background-image: url(./images/footer/footer.png);
     width: 1020px;
     height: 496px;
+}
+
+.ourserv {
+    position: absolute;
+    margin: 67px 809px 406px 40px;
+}
+
+.fusce {
+    position: absolute;
+    margin: 123px 40px 326px 41px;
+    font-family: Lato-Light;
+    font-size: 12pt;
+    color: rgba(118, 126, 158, 255);
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 221px;
+}
+
+.round {
+    padding: 15px;
+    border: 2px solid #666d89;
+    border-radius: 50%;
+}
+
+.round .first {
+    position: absolute;
+    margin: 235px 933px 229px 55px;
+}
+
+.LatoBlack {
+    font-family: Lato-Black;
+}
+
+.LatoBold {
+    font-family: Lato-Bold;
+}
+
+.LatoRegular {
+    font-family: Lato-Regular;
 }
 
 .footer2 {
